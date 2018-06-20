@@ -16,7 +16,7 @@ public class LoadDatabase {
                 new Chapter("Quick start with java"),
                 new Chapter("Chapter 1"),
                 new Chapter("Chapter 2"))
-                .flatMap(repository::save)
+//                .flatMap(repository::save)
                 .subscribe(System.out::println);
     }
 }
